@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+body>div{
+    margin: 0 auto;
+}
+.top{
+    margin: 0 auto;
+    width: 1920px;
+    height:700px;
+    background: url(../images/2.jpg) center;
+}
+.logo{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1920px;
+    height: 700px;
+}
+.nav{
+    margin: 0 auto;
+    width: 1920px;
+    height: 100px;
+    float: right;
+}
+.nav .tx{
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 50px 250px 0px ;
+    
+}
+
+.tx  img{
+    transition: 1s;
+}
+/*点击头像旋转的时间*/
+.tx img:hover{
+    transform:rotate(360deg);
+}
+/*点击头像旋转*/
+.nav ul{
+    overflow: hidden; 
+    float: right;
+    margin-top: 40px;
+    margin-right: 200px;
+}
+.nav ul li{
+    float: left;
+    margin-left: 50px;
+}
+.nav a{
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+    transition: 1s;
+    
+}
+.nav ul li:hover a{
+    font-size: 30px;
+}
+/*点击导航文字放大效果*/
+.nav ul li a:hover{
+    color: #61649f;
+    border-bottom: 1px solid #61649f;
+    
+}
+/*点击导航文字变颜色*/
+.nav .bk p{
+    font-size: 60px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 300px;
+    transition: 1s;
+}
+.nav:hover P{
+    font-weight: bold;
+    font-size: 100px;
+    color: #61649f;
+}
+/*点击DU MENG YUAN博客改变颜色和粗细*/
+.main{
+    overflow: hidden;
+    width: 1920px;
+    height: 990px;
+    margin: 0 auto;
+}
+.content dt{
+    color: #61649f;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 35px;
+}
+.content dd{
+    color: #74759b;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.content_a {
+    margin-left: 167px;
+    width: 1920px;
+    
+    display: block;
+    float: left;
+}
+.content_c{
+    
+    margin-top: 20px;
+    float: left;
+    width: 640px;
+    height: 400px;
+}
+.content_c img:hover{
+    width: 310px;
+    height: 310px;
+    transition: 1s;
+}
+/*点击图片放大*/
+.content_c dt{
+    color: #61649f;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.content_c dd{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #74759b  ;
+    float: right;
+    margin-right: 250px;
+}
+.footer{
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 230px;
+    background: #266ba4;
+}
+.footer-1{
+    color: #fff;
+    margin-top: 51px;
+    line-height: 50px;
+}
+.footer-1 a{
+    color: #ffffff;
+    text-align: center;
+    font: 12px "微软雅黑",Arial;
+    margin: 0px 0px 15px;
+    
+}
+.footer-1 p{
+   color: #FFF;
+}
+.footer-1 p:first-child{
+    padding: 30px 0px 0px;
+}
+@media screen and (max-width:1200px){
+.top{width: 100%;
+height: 500px;}    
+
+.nav{width: 100%;}
+
+.nav .bk p{
+font-size: 30px;}
+
+.nav  ul{
+    float: left;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.nav .tx{margin: 30px 250px 0px;}
+.tx img{
+    margin: 0 auto;
+    margin-left: -70px;
+}
+
+.main{width: 100%;
+    height: 2700px;
+    display: block;
+    margin: 0 auto;
+}
+.content{width: 100%;}
+
+.content_a{width: 100%;
+margin: 0 auto;
+margin-left: 50px;
+}
+
+.content_c dd{
+    margin-right:350px;
+}
+
+.footer{width: 100%;}
+
+}
